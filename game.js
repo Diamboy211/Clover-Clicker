@@ -73,10 +73,11 @@ var game = {
 		Clover4: 0,
 		Clover4Cost: 2e7,
 		Clover4Mult: 1,
-		tap: 1
+		tap: 1,
+		upgrades: new Array(upgList.length);
 	}
 };
-
+game.state.upgrades.fill(false);
 
 
 
